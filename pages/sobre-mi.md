@@ -1,7 +1,7 @@
 ---
 layout: page
-title: About
-permalink: /about
+title: Sobre mi
+permalink: /sobre-mi
 section: about
 intro_paragraph: |
   This is an example of a standard Jekyll page. You can edit it with Netlify

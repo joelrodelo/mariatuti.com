@@ -1,7 +1,7 @@
 // site colours
-$text-color: rgb(40,40,40);
-$text-color-negative: white;
-$brand-color: red;
+$text-color: #292823;
+$text-color-negative: #F9417D;
+$brand-color: #FDF6F1;
 $link-color: rgb(0,114,154);
 $link-hover-color: rgb(0,57,78);
 $grey-bg-color: rgb(243,243,243);
@@ -11,7 +11,7 @@ $selection-bg-color: rgba(255,255,100,0.5);
 // typographic defaults
 $base-font: system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Droid Sans,Helvetica Neue;
 $code-font: Courier, monospace;
-$base-font-size: 62.5%;
+$base-font-size: 100%;
 $base-font-weight: 300;
 $bold-font-weight: 600;
 $base-line-height: 1.5;

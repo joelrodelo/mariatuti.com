@@ -22,7 +22,7 @@ body {
   font-weight: $base-font-weight;
   font-style: normal;
 	font-variant: normal;
-  font-size: 1.6rem; // this is equivalent to 16px
+  font-size: 1rem; // this is equivalent to 16px
 }
 
 h1,h2,h3,h4,h5,h6,p,figure,time {
@@ -52,12 +52,12 @@ h1,h2,h3,h4,h5,h6 {
 }
 
 h2 {
-  font-size: 3.2rem;
-  padding-bottom: 4rem;
+  font-size: 2.8rem;
+  padding-bottom: 2.8rem;
 }
 
 h3 {
-  font-size: 2rem;
+  font-size: 1.8rem;
 }
 
 code {
@@ -76,7 +76,7 @@ small {
 
 a,
 a:visited {
-  border-bottom: 0.05em solid $link-color;
+  border-bottom: 0.05em solid;
 	text-decoration: none;
 	color: $link-color;
 }

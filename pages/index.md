@@ -1,12 +1,9 @@
 ---
 layout: home
-title: Welcome
+title: Hola, soy María Tuti
 permalink: /
 section: home
 intro_paragraph: >
-  [Jekyll Netlify Boilerplate](https://github.com/danurbanowicz/jekyll-netlify-boilerplate)
-  provides the basics to get a fast, static website deployed on Netlify.
-  Features [Netlify CMS](https://www.netlifycms.org), responsive
-  CSS Grid layout, sample
-  pages and posts, and a continuous deployment workflow.
+  
+  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer ante massa, commodo ac tortor eu, venenatis hendrerit nisl.
 ---

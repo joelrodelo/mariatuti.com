@@ -12,7 +12,7 @@ body {
   grid-template-rows: auto 1fr auto;
   grid-template-columns:
     [full-start] minmax(1rem, 1fr)
-    [main-start] minmax(0, 52rem) [main-end]
+    [main-start] minmax(0, 64rem) [main-end]
     minmax(1rem, 1fr) [full-end];
 }
 
@@ -28,7 +28,7 @@ header {
   grid-column: full;
   display: grid;
   background-color: $brand-color;
-  padding: 2rem;
+  padding: 1rem;
   @media screen and (min-width: $screen-sm-min) {
     grid-template-columns: 1fr auto;
     grid-column-gap: 1rem;
@@ -39,6 +39,7 @@ header {
 header > h1 {
   display: inline-block;
   padding-bottom: 1rem;
+  font-weight: bold;
   @media screen and (min-width: $screen-sm-min) {
     padding-bottom: 0;
   }
@@ -46,13 +47,13 @@ header > h1 {
   a:visited {
     text-decoration: none;
     border: 0;
-    color: white;
+    color: $text-color-negative;
     @media screen and (min-width: $screen-sm-min) {
       padding: 1rem;
     }
   }
   a:hover {
-    color: white;
+    color: $text-color-negative;
   }
 }
 
@@ -72,9 +73,10 @@ header > nav {
       }
       a,
       a:visited {
-        color: white;
+        color: $text-color-negative;
         text-decoration: none;
         border: 0;
+        font-weight: bold;
         @media screen and (min-width: $screen-sm-min) {
           padding: 1rem;
         }
@@ -83,7 +85,7 @@ header > nav {
         }
       }
       a:hover {
-        color: white;
+        color: $text-color-negative;
       }
     }
   }
@@ -97,8 +99,8 @@ main {
   margin-left: auto;
   grid-column: main;
   display: grid;
-  padding-top: 8rem;
-  padding-bottom: 8rem;
+  padding-top: 6rem;
+  padding-bottom: 6rem;
   @media screen and (min-width: $screen-md-min) {
     align-content: start;
   }
