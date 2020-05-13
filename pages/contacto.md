@@ -1,7 +1,7 @@
 ---
-layout: contact
-title: Contact
-permalink: /contact
+layout: contacto
+title: Contacto
+permalink: /contacto
 section: contact
 intro_paragraph: |-
 
