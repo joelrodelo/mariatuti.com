@@ -99,7 +99,7 @@ main {
   margin-left: auto;
   grid-column: main;
   display: grid;
-  padding-top: 6rem;
+  padding-top: 3rem;
   padding-bottom: 6rem;
   @media screen and (min-width: $screen-md-min) {
     align-content: start;
@@ -110,8 +110,8 @@ main {
 // float, inline-block, table properties are already ignored by CSS Grid
 @supports (display: grid) {
   main {
-    width: auto;
-    max-width: none;
+    // width: auto;
+    // max-width: none;
   }
 }
 
@@ -172,13 +172,11 @@ html[data-current="contact"] main > form {
 
 footer {
   grid-column: full;
-  display: grid;
+  display: block;
   grid-template-columns:
     [full-start] minmax(1rem, 1fr)
     [main-start] minmax(0, 50rem) [main-end]
     minmax(1rem, 1fr) [full-end];
   background-color: $grey-bg-color;
-  > small {
-    grid-column: main;
-  }
+
 }

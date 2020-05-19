@@ -12,27 +12,53 @@ layout: default
 
   {{ content }}
  -->
-<h3>Proyectos</h3>
-<ul class="boxes">
-  <li>
-    <div class="boxes__text-wrapper portfolio-edebe">
-      <div>
-        <h2>Rotceh Música</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer ante massa, commodo ac tortor eu, venenatis hendrerit nisl.</p>
-        <a href="#">Ver proyecto</a>
-      </div>
-      <div>
-        <img src="assets/portafolio/rotceh/portada-rotceh.png" alt="" title="">
-      </div>
-    </div>
-  </li>
-  
-</ul>
 
+<h2>Soy María Tuti, ilustradora mexicana, amante de los colores y la música.</h2>
+
+<div class="home_proyectos">
+  <h3>Proyectos</h3>
+  <ul class="boxes">
+    <li>
+      <div class="boxes__text-wrapper portfolio-edebe">
+        <div>
+          <img src="assets/portafolio/rotceh/portada-rotceh.png" alt="" title="">
+        </div>
+        <div>
+          <h4>Rotceh Música</h4>
+          <a href="#">Ver proyecto</a>
+        </div>
+      </div>
+    </li>
+    <li>
+      <div class="boxes__text-wrapper portfolio-edebe">
+        <div>
+          <img src="assets/portafolio/edebe/portada-edebe.png" alt="" title="">
+        </div>
+        <div>
+          <h4>Edebe</h4>
+          
+          <a href="#">Ver proyecto</a>
+        </div>
+      </div>
+    </li>
+    <li>
+      <div class="boxes__text-wrapper portfolio-edebe">
+        <div>
+          <img src="assets/portafolio/edebe/portada-edebe.png" alt="" title="">
+        </div>
+        <div>
+          <h4>Edebe</h4>
+          
+          <a href="#">Ver proyecto</a>
+        </div>
+      </div>
+    </li>
+  </ul>
+</div>
 
   <section class="blog-recent">
 
-    <h3>Recent posts from the blog</h3>
+    <h3>Entradas recientes del blog</h3>
 
     <ul>
       {% for post in site.posts limit:3 %}
